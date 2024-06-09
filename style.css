@@ -1,0 +1,187 @@
+.btn1{
+    display: flex;
+    gap:20px;
+}
+.navbar-nav a{
+    font-size:18px;
+    margin:7px;
+    background-color:#242460;
+}
+.accueil1{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center; 
+}
+.accueil2{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:21px;
+ }
+ .accueil3{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:41px;
+ }
+ .accueil4{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:61px;
+ }
+ .i{
+    position: relative;
+    left:98px;
+    bottom:100px;
+ }
+ .ii{
+    position: relative;
+    left:190px;
+    bottom:86px;
+ }
+ .card-img{
+    width:255px;
+    height:240px;
+}
+/* **************temoin************** */
+.temoin{
+    position:relative;
+    top:50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border:1px solid black;
+    width:260px;
+    height:320px;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.temoin2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.temoin1{
+    width: 260px;
+    height:200px;
+    border-radius: 30px;
+    position: relative;
+    bottom:49px;
+}
+.list{
+    text-decoration: none;
+}
+/* *******************Accueil******************** */
+.active1{
+    gap:20px;
+}
+/* *****************Connexion******************** */
+.shopy{
+    width:100px;
+}
+ .input{
+    width:410px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-color: orange;
+} 
+.input1{
+    width:410px;
+}
+legend{
+    position: relative;
+    right:130px;
+}
+.p{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left:180px;
+}
+.text{
+    width:200px;
+    border: none;
+}
+/* ***************Footer******************* */
+footer{
+    position: relative;
+    top:92px;
+}
+/* -------------------Inscription-------------------- */
+.legend1{
+    position: relative;
+    right:140px;
+}
+.legend2{
+    position: relative;
+    right:109px;
+
+}
+@media screen and (max-width: 768px) {
+     .accueil1,.accueil3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .accueil2,.accueil4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .active1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    /* ***********temoin**************** */
+    .temoin2{
+        display: flex;
+        flex-direction: column;
+    }
+    .temoin{
+        width:350px;
+
+    }
+    .temoin1{
+        height:150px;
+        width:350px;
+    }
+
+    /* ****************Mot de passe****************** */
+    .input1{
+        width:340px;
+
+    }
+    legend{
+        position: relative;
+        right:90px;
+    }
+    .legend1{
+        position: relative;
+        right:100px;
+    }
+    .legend2{
+        position: relative;
+        right:70px;
+    
+    }
+    .input{
+        width:300px;
+    }
+    .btn1{
+        position: relative;
+        top:3px;
+    }
+    }
